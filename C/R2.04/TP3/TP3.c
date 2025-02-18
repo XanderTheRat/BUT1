@@ -1,5 +1,5 @@
 #include <stdio.h>
-void exo1(void) {
+void AfficherCouleur(void) {
     char *couleur[] = {"rouge", "vert", "bleu", "blanc", "noir", "orange", NULL};
     char **ptrCouleur = couleur;
     char *ptrChar;
@@ -15,7 +15,7 @@ void exo1(void) {
     }
 }
 
-void exo2(char *couleur[]) {
+void AfficherCouleurSansLaPremiereLettre(char *couleur[]) {
     char **ptrCouleur = couleur;
 
     while (*ptrCouleur != NULL) {
@@ -24,7 +24,7 @@ void exo2(char *couleur[]) {
     }
 }
 
-void exo3(char *couleur[]) {
+void AfficherCouleurEnMaj(char *couleur[]) {
     char **ptrCouleur = couleur;
     char *ptrChar;
 
@@ -41,8 +41,24 @@ void exo3(char *couleur[]) {
     }
 }
 
+void AfficherCouleurSansPourcentS(char *couleur[]) {
+    char **ptrCouleur = couleur;
+    char *ptrChar;
+
+    while (*ptrCouleur != NULL) {
+        ptrChar = *ptrCouleur;
+        while (*ptrChar != '\0') {
+            if (*ptrChar >= 'a' && *ptrChar <= 'z') {
+                printf("%c", *ptrChar);
+            }
+            ptrChar++;
+        }
+        printf("\n");
+        ptrCouleur++;
+    }
+}
 int main(void) {
     char *couleur[] = {"rouge", "vert", "bleu", "blanc", "noir", "orange", NULL};
-    exo3(couleur);
+    AfficherCouleurSansPourcentS(couleur);
     return 0;
 }
