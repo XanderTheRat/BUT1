@@ -5,7 +5,7 @@ void AfficherCouleur(void) {
     char *ptrChar;
 
     while (*ptrCouleur != NULL) {
-        *ptrChar = *ptrCouleur;
+        *ptrChar = **ptrCouleur;
         while (*ptrChar != '\0') {
             printf("%c", *ptrChar);
             ptrChar++;
@@ -43,7 +43,7 @@ void AfficherCouleurEnMaj(char *couleur[]) {
 
 void AfficherCouleurSansPourcentS(char *couleur[]) {
     char **ptrCouleur = couleur;
-    char *ptrChar = *ptrCouleur; //Attribution d'une valeur pour la qualité de code. Ici, cela ne sert à rien.
+    char *ptrChar = NULL; //Attribution d'une valeur pour la qualité de code. Ici, cela ne sert à rien.
 
     while (*ptrCouleur != NULL) {
         ptrChar = *ptrCouleur;
@@ -71,9 +71,33 @@ void exo2(char *p[6]) {
 }
 
 int main(void) {
+    int choix;
     char *couleur[] = {"rouge", "vert", "bleu", "blanc", "noir", "orange", NULL};
     char *p[6] = {"ABC", "DEFGH", "IJKLM", "NOPQRS", "TUV", NULL};
 
-    exo2(p);
+    printf("Quelle fonction souhaitez vous lancer ?");
+    scanf("%d",&choix);
+    switch (choix) {
+        case 1 :
+            printf("L'exercice 1 ne marche pas !\n");
+            break;
+        case 2 :
+            AfficherCouleurSansLaPremiereLettre(couleur);
+            break;
+        case 3 :
+            AfficherCouleurEnMaj(couleur);
+            break;
+        case 4 :
+            AfficherCouleurSansPourcentS(couleur);
+            break;
+        case 5 :
+            exo2(p);
+            break;
+        default: printf("Vous quittez.");
+        break;
+
+    }
+    printf("\n");
+    printf("--------------------------------------------------------------\n");
     return 0;
 }

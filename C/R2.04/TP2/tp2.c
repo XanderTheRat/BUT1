@@ -75,8 +75,11 @@ int main(void) {
     scanf("%d",&choix);
     switch (choix) {
         case 1 : FonctionPointeur();
+        break;
         case 2 :ToMaj();
+        break;
         default: printf("Vous quittez.");
+        break;
 
     }
     printf("\n");
