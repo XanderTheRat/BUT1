@@ -3,9 +3,10 @@
 int main(void) {
     char *couleur[] = {"rouge", "vert", "bleu", "blanc", "noir", "orange", NULL};
     char **ptrCouleur = couleur;
+    char *ptrChar;
 
     while (*ptrCouleur != NULL) {
-        char *ptrChar = *ptrCouleur;
+        *ptrChar = *ptrCouleur;
         while (*ptrChar != '\0') {
             printf("%c", *ptrChar);
             ptrChar++;
