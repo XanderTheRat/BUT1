@@ -1,17 +1,18 @@
-# include <stdio.h>
+#include <stdio.h>
 
 int main(void) {
     char *couleur[] = {"rouge", "vert", "bleu", "blanc", "noir", "orange", NULL};
-    int numCouleur;
-    char *charCompteur = couleur;
+    char **ptrCouleur = couleur;
 
-    while (charCompteur != NULL) {
-        numCouleur = 0;
-        while (charCompteur[numCouleur] != '\0') {
-            printf("%c", charCompteur[numCouleur]);
-            numCouleur++;
+    while (*ptrCouleur != NULL) {
+        char *ptrChar = *ptrCouleur;
+        while (*ptrChar != '\0') {
+            printf("%c", *ptrChar);
+            ptrChar++;
         }
-    printf("\n");
-    charCompteur++;
+        putchar('\n');
+        ptrCouleur++;
     }
+
+    return 0;
 }
