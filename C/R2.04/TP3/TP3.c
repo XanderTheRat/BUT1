@@ -24,9 +24,25 @@ void exo2(char *couleur[]) {
     }
 }
 
+void exo3(char *couleur[]) {
+    char **ptrCouleur = couleur;
+    char *ptrChar;
+
+    while (*ptrCouleur != NULL) {
+        ptrChar = *ptrCouleur;
+        while (*ptrChar != '\0') {
+            if (*ptrChar >= 'a' && *ptrChar <= 'z') {
+                printf("%c", *ptrChar - 32);
+            }
+            ptrChar++;
+        }
+        printf("\n");
+        ptrCouleur++;
+    }
+}
+
 int main(void) {
     char *couleur[] = {"rouge", "vert", "bleu", "blanc", "noir", "orange", NULL};
-
-    exo2(couleur);
+    exo3(couleur);
     return 0;
 }
