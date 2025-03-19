@@ -1,0 +1,198 @@
+/*Cree par Tristan Bibens et Martin Valet*/
+body
+	{background: black ;
+	font-family:Arial,Verdanasans-serif;
+	}
+h1
+	{color : silver;
+	font-size : 200%;
+	background : black;
+	text-align : center;
+	border: double ;
+	border-color: gold; 
+	width:75%;
+	margin: auto ;
+	
+	}
+h2
+	{color : gold;
+	font-size : 150%;
+	background : black;
+	text-align : center;
+	border: double ;
+	border-color: silver ;
+	}
+ul
+	{color:gray;
+	list-style-type : disc;
+	margin:auto ;
+	}
+a
+	{color:black;
+	}
+
+section
+	{border-style : solid;
+	border-width : 2px;
+	border-color : red;
+	
+	}
+table
+	{width:99%;}
+table, td, th
+	{border: double 3px red;
+	border-collapse: collapse;
+	border-spacing: 5px;
+	}
+
+.diff
+	{font-weight : bold;
+	text-align : right;
+	}
+ol.niveau1
+	{color : black;
+	list-style-type : upper-latin;
+	}	
+ol.niveau2
+	{color : gray;
+	list-style-type : decimal;
+	}
+
+	
+#logo 
+	{display : block;
+	margin : auto ;
+	height : 500 px;
+	border: double;
+	border-color: purple ;
+	}
+#pikou
+	{display : block;
+	margin : auto ;
+	height : 500 px;
+	border: double;
+	border-color: yellow ;
+	}
+
+
+
+
+
+.image_flottante_gauche{float:right;}
+
+.image_flottante_droite{float:left;}
+
+.tout_noir{background : black;}
+
+#cache{
+	color : black;
+	margin-left: 50%;}
+
+/*a:hover { background-color: black; color : black;}*/
+
+.gauche{
+	display : inline-block;
+	width: 45%;
+	margin-left: 2%;
+	vertical-align: top;
+	}
+	
+.droite{
+	display : inline-block;
+	width: 45%;
+	margin-left: 4%;
+	vertical-align: top;
+	}
+	
+#logoroucool, #logopikachu,#logoosselait
+	{
+	display:block;
+	width: 50%;
+	height : 200px;
+	margin: auto;
+	}
+
+	
+#roucool, #pikachu, #osselait
+	{
+	display:inline-block;
+	width:23%;
+	height : 80%;
+	vertical-align:top;
+	margin: 2%;
+	padding: 2%;
+	border : inset;
+	border-color : yellow;
+	border-width: 7px;
+	}
+	
+#roucool {margin-left : 4%;}
+	
+.justif{text-align:justify;}
+
+#Magicarpe
+	{
+	background-image:url("../Images/Hydro.png");
+	width:655px;
+	height: 215px;
+	margin:auto;
+	padding: 5px;
+	text-align:justify;
+	border-color : green;
+	border-style : outset;
+	border-width: 7px ;
+	animation-duration: 0.1s;
+	animation-name: clignoter;
+	animation-iteration-count: infinite;
+	transition: none;
+	}
+	
+.neontext
+	{
+	text-shadow:
+		0 0 7px #fff,
+		0 0 10px #fff,
+		0 0 21px #fff,
+		0 0 21px #0fa,
+		0 0 42px #0fa,
+		0 0 82px #0fa,
+		0 0 92px #0fa;	
+	}
+	
+.neontext1
+	{
+	text-shadow:
+		0 0 7px green,
+		0 0 10px green,
+		0 0 21px green,
+		0 0 21px lime,
+		0 0 42px lime,
+		0 0 82px lime,
+		0 0 92px lime;	
+	}
+
+.clignote  
+	{
+	animation-duration: 0.1s;
+	animation-name: clignoter;
+	animation-iteration-count: infinite;
+	transition: none;
+	}
+	@keyframes clignoter {
+  0%   { opacity:1; }
+  40%   {opacity:0; }
+  100% { opacity:1; }
+}
+
+
+.neontext2
+	{
+	text-shadow:
+		0 0 7px red,
+		0 0 10px red,
+		0 0 21px red,
+		0 0 21px red,
+		0 0 42px red,
+		0 0 82px red,
+		0 0 92px red;	
+	}

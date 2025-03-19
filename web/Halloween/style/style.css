@@ -1,0 +1,242 @@
+/*Ici les balises natives*/
+header{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin: 1%;
+    margin-top: 0;
+    padding-bottom: 0;
+    padding: 1%;
+}
+body{
+    background-color: #313131;
+}
+h1{
+    vertical-align: auto;
+    color: #ec6f20;
+    text-decoration: underline;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: auto;
+    display: flex;
+    border-collapse: collapse;
+    padding-bottom: 5%;
+    width: -10%;
+}
+nav{
+    display: block;
+    color :#ec6f20;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    color : #ec6f20;
+    font-weight: bold;
+}
+::selection {
+    background-color: #7c1580; /* Couleur de surlignage */
+    color: #FFFFFF;
+}
+
+/*Le divider*/
+.Divider{
+    display: flex;
+    height: 0px;
+    border : solid #8b8b9b 2px;
+    justify-content: center;
+    justify-items: center;
+    width: 48%;
+    margin-top: 3%;
+    margin-bottom : 3%
+}
+.Centrer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+/*Ici les classes*/
+.maincontainer{
+    width: auto;
+}
+.musique {
+    position: fixed; /* Rendre la div fixe */
+    top: 20px;
+    right: 20px;
+    width: 7%; 
+    padding: 10px;
+    background-color: rgb(138, 97, 22);
+    color: #ec6f20;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.logo{
+    display: block;
+    align-items: center;
+    margin-bottom: -5%;
+    margin-left: 7%;
+}
+.logoImage{
+    display: inline-block;
+    vertical-align: bottom;
+    height: 50%;
+    margin-left : 6%
+}
+.TableDesMatieres{
+    position: fixed;
+    /*background-color: #000000;*/ /*Outil de débogage*/
+    height: 101%;
+    margin-top: -1%;
+    width: 12%;
+    display: block;
+    text-decoration: none;
+    color : #ec6f20;
+    border-right: solid 3px #000000;
+    margin-right: 5px;
+    font-size: large;
+}
+.Bouton1{
+    margin-bottom: 10px;
+}
+.container2{
+    display: block;
+    margin-left: 15%;
+    margin-right: 4%;
+}
+.PremierParagraphe{
+    margin-top: auto;
+    color :#ec6f20
+}
+.TitrePremierPragrahe{
+    text-align: center;
+}
+.BoutonDisparition{
+    display: flex;
+    padding: 10px 15px;
+    background-color: #7c1580;
+    color :#ec6f20;
+    border : solid 1px #ec6f20;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: zoom-in;
+}
+.container3{
+    display: block;
+    margin-left: 25%;
+}
+.indicage{
+    font-size: smaller;
+    vertical-align: text-top;
+}
+.highlight {
+    font-weight: bold;
+}
+
+
+
+
+
+
+/* Animation pour le bouton */
+.fade-out {
+    animation: fadeOut 0.5s forwards; /* Durée de l'animation */
+}
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        transform: scale(0.1);
+    }
+}
+
+
+
+/*Le player audio personalisé*/
+.play-button, .pause-button{
+    display: flex;
+    justify-content: center;
+    padding: 10px 15px;
+    margin-left: 27%;
+    background-color: rgb(138, 97, 22); /* Couleur du bouton */
+    color: hwb(0 100% 0%);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    font-weight: bold;
+}
+.volume-control{
+    width: auto;
+}
+.visibleTel{
+    display:none;
+}
+
+/*Modification du style de la jauge de son*/
+input[type="range"] {
+    appearance: auto;
+    -webkit-appearance: none;
+    width: 100%;
+    height: 5px;
+    border-radius: 5px;
+    background: #000000;
+    outline: none; /* Supprime le contour au focus */
+}
+/*Modification du curseur*/
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #31ec20;
+    cursor: pointer;
+    border : solid #000000 1px;
+}
+input[type="range"]::-moz-range-thumb {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%; 
+    background: #31ec20;
+    cursor: pointer;
+    border : solid #000000 1px;
+}
+
+
+/*Bibliotheque des div qui disparaissent*/
+#DivCachee1{
+    margin-top: 20px;
+    padding: 10px;
+    border : 1px solid #FFF; /*Debogage*/
+}
+#DivCachee2{
+    margin-top: 20px;
+    padding: 10px;
+    border : 1px solid #FFF; /*Debogage*/
+}
+#Tablecachee1{
+    margin-bottom: 1%;
+}
+#Tablecachee2{
+    margin-bottom: 1%;
+}
+
+/*Bibliotheque des classes de Disparition*/
+.Cachee1{
+    display: none;
+}
+.Cachee2{
+    display: none;
+}
+
+
+.slide-in-right {
+	-webkit-animation: slide-in-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}

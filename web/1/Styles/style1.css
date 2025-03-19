@@ -1,0 +1,124 @@
+/*Cree par Elouan Franch et Martin Valet*/
+body
+	{background:rgb(200,100,100);
+	font-family:Arial,Verdanasans-serif;
+	}
+h1
+	{color : white;
+	font-size : 200%;
+	background : silver;
+	text-align : center;
+	}
+h2
+	{color : silver;
+	font-size : 150%;
+	background : white;
+	text-align : center;
+	}
+ul
+	{color:gray;
+	list-style-type : square;
+	}
+a
+	{color:black;
+	}
+
+section
+	{border-style : dashed;
+	border-width : 2px;
+	border-color : black;
+	}
+table
+	{width:25%;}
+table, td, th
+	{border: solid 1px grey;
+	border-collapse: collapse;
+	border-spacing: 2px;
+	}
+
+.diff
+	{font-weight : bold;
+	text-align : right;
+	}
+ol.niveau1
+	{color : black;
+	list-style-type : decimal;
+	}	
+ol.niveau2
+	{color : gray;
+	list-style-type : lower-latin;
+	}
+
+	
+#logo 
+	{display : block;
+	margin : auto ;
+	height : 500 px;
+	}
+
+.image_flottante_gauche{float:left;}
+
+.image_flottante_droite{float:right;}
+
+.tout_noir{background : black;}
+
+#cache{
+	color : black;
+	margin-left: 50%;}
+
+/*a:hover { background-color: black; color : black;}*/
+
+.gauche{
+	display : inline-block;
+	width: 45%;
+	margin-left: 2%;
+	vertical-align: top;
+	}
+	
+.droite{
+	display : inline-block;
+	width: 45%;
+	margin-left: 4%;
+	vertical-align: top;
+	}
+	
+#logoroucool, #logopikachu,#logoosselait
+	{
+	display:block;
+	width: 50%;
+	height : 200px;
+	margin: auto;
+	}
+
+	
+#roucool, #pikachu, #osselait
+	{
+	display:inline-block;
+	width:23%;
+	height : 80%;
+	vertical-align:top;
+	margin: 2%;
+	padding: 2%;
+	border : dashed;
+	border-color : grey;
+	border-width: 5px;
+	}
+	
+#roucool {margin-left : 4%;}
+	
+.justif{text-align:justify;}
+
+#Magicarpe
+	{
+	background-image:url("../Images/magicarpe.png");
+	width:655px;
+	height: 215px;
+	margin:auto;
+	padding: 5px;
+	text-align:justify;
+	border-color : maroon;
+	border-style : double;
+	border-width: 15px;
+	
+	}
+.epileptique{text-align:center}

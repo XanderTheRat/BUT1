@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halloween</title>
+    <link href ="style/style.css" rel="stylesheet">
+    <link href="style/responsive.css" rel="stylesheet">
+  </head>
+
+
+
+
+  <body>
+    <div class="TableDesMatieres">
+        <nav>
+            <br><span id="Tablecachee1" class="Cachee1"><a href="#DivCachee1">Premiere partie</a></span>
+            <br><span id="Tablecachee2" class="Cachee2"><a href="#DivCachee2">Deuxieme partie</a></span>
+        </nav>
+    </div>
+    <header>
+        <div class="logo">
+            <img src="img/logo.png" class="logoImage"><h1>C'est Halloween !!!!!</h1>
+        </div>
+    </header>
+    <main>
+        <div class="musique">
+            <audio id="audio" src="msq/Musique.mp3" autoplay></audio>
+
+            <div class="audioPlayer">
+                <button class="play-button visiblePC">Play</button>
+                <button class="pause-button visiblePC" style="display:none;" >Pause</button>
+                <button class="play-buttonTEL visibleTel">⨀</button>
+                <button class="pause-buttonTEL visibleTel" style="display:none;">⨉</button>
+                <input type="range" class="volume-control" id="volume" min="0" max="0.5" step="0.00000001" value="0.5">
+            </div>
+        </div>
+        
+        <div class="maincontainer">
+            <div>
+                <div class="Centrer">
+                    <div class="Bouton1"><button id="BoutonDispa" class="BoutonDisparition">Essayer !</button></div>
+                    <div class="Divider"></div>
+                </div>
+                <div class="container2">
+                    <div id="DivCachee1" class="Cachee1">
+                        <h3 class="PremierParagraphe TitrePremierPragrahe">
+                            Bienvenue, c'est bientot Halloween !!!! Que faisons nous à Halloween ? On fais la fete en famille, on regarde des film d'horreur entre amis, on sors 
+                            en ville demandez des confiseries ou on s'amuse à faire peur à nos proches.
+                        </h3>
+                        <p class="PremierParagraphe">
+                            Pour cette année, laissez moi vous raconter une histoire. l'histoire de Jack'o Lantern.
+                        </p>
+                        <p class="PremierParagraphe">
+                            Notre histoire prend place au XIV<span class="indicage">e</span> siecle, dans une campagne Irlandaise. Alors que Jack, un maréchal Férand rentrais du travail,
+                            il se rendit dans une taverne. Il commanda un plat et à boire, mais tasndis qu'il allait s'assoir, il bouscula un grand homme encapuchoné. Jack ne connaissait pas cet homme
+                            et s'excusa, mais l'homme l'interpela alors. <br>
+                            - Bonsoir, dit l'inconnu, interpellant Jack. Désiriez vous boire plus que vous ne le pouvez actuellement ? <br>
+                            Jack, désireux de boire plus que sa bourse ne lui autorisais, accepta le deal de l'homme. L'homme se transforma alors
+                            en une piece de six pence et lui demanda alors son ame.<br>
+                            Mais Jack étais plus rusé que le Malin, et rangea la piece dans sa bourse, ou s'y trouvais une croix en argent.<br>
+                            Jack avait ainsi piégé le Malin, et le libera à condition que ce dernier ne lui demanda pas de vendre son ame avant une dizaine d'année.
+                        </p>
+                        <p class="PremierParagraphe">
+                            Dix ans plus tard, alors que Jack avait fini sa journée et rentrais chez lui, il vit de nouveau l'homme encapuchoné qui vint récuperer son du.<br>
+                            Paniqué, Jack accepta à condition que le Malin aille lui cherche une pomme sur un arbre non loin.<br>
+                            Alors que l'homme monta sur les épaules de Jack et récupera la pomme, Jack s'empressa de graver une croix sur le tronc de l'arbre avec son couteau, piegant à nouveau le Malin.
+                            <br>Ce dernier, alors obligé de répondre aux éxigeances de Jack, accepta de ne plus jamais lui réclamer son ame. 
+                        </p>
+                        <p class="PremierParagraphe">
+                            À sa mort, Jack fut refusé aux portes du Paradi car il avait un lourd passé d'alcoolique, il fut obligé de retourner érer sur la Terre 
+                            a cause de la promesse du Diable de ne pas réclamer son ame. Cependant, il réussi à convaincre le Malin de lui donner un morceau de charbon
+                            incandescent afin de l'éclairer dans sa route.<br>
+                            Jack sculta alors un Navet et y placa sa lumiere, érrant ainsi sur Terre les jours de sa mort : Halloween.
+                        </p><br>
+                        <p class="PremierParagraphe">
+                            Hé oui, originellement, Jack'o Lantern étais Irlandais et portait un Navet. On est d'accord, ce n'est pas tres fameux.<br>
+                            Pour ce qui est de la réputation qu'on lui connais, celle d'un cavalier errant avec sa citrouille, c'est une autre histoire.<br>
+                            Dans le milieu des années 1840, il y eu une Grande Famine en Irlande, et une grande majorité des habitants ont alors migrés vers les États Unis d'Amériques.
+                            Sur place, il n'y avait pas autant de Navet qu'en Irlande, mais il y avait nombre de citrouilles. C'est alors que la tradition s'est adaptée à l'environnement,
+                            et que les citrouilles se sont implémentées dans la légende, et la légende s'est repandu à travers le monde via la mondialisation et les technologies modernes.
+                        </p>
+                    </div>
+                </div>
+                <div class="Centrer Cachee1" id="DividerCachee1">
+                    <div class="Divider"></div>
+                </div>
+                <div class="container3">
+                    <div id="DivCachee2" class="Cachee2">
+                        text
+                    </div>
+                </div>
+                <div class="Centrer Cachee2" id="DividerCachee2">
+                    <div class="Divider"></div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+  </body>
+  <script src="script/script.js"></script>
+</html>

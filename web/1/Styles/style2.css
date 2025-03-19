@@ -1,0 +1,140 @@
+/*Cree par Elouan Franch et artin Valet*/
+body
+	{background:rgb(0,140,140) /*Le Marrs Green a ete etudie comme etant la couleur la plus belle au monde*/;
+	font-family:Arial,Verdanasans-serif;
+	}
+h1
+	{color : silver;
+	font-size : 200%;
+	background : gold;
+	text-align : left;
+	}
+h2
+	{color : gold;
+	font-size : 150%;
+	background : silver;
+	text-align : right;
+	}
+h3
+	{color:rgb(250,55,80);
+	}
+ul
+	{color:gray;
+	list-style-type : disc;
+	}
+li, .Couleur_autre
+	{color:rgb(100,200,200);}
+a
+	{color:black;
+	}
+
+section
+	{border-style : inset;
+	border-width : 5px;
+	border-color : #7e3300;
+	}
+table
+	{width:25%;}
+table, td, th
+	{border: solid 3px orange;
+	border-collapse: collapse;
+	border-spacing: 2px;
+	}
+td, th
+	{color:white}
+.diff
+	{font-weight : bold;
+	text-align : right;
+	}
+ol.niveau1
+	{color : black;
+	list-style-type : upper-latin;
+	}	
+ol.niveau2
+	{color : gray;
+	list-style-type : decimal;
+	}
+
+	
+#logo 
+	{  display: block;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width : 250px;
+	height : 300px;
+	padding-left:250px; 
+	background-image:url("../Images/professeur_chen.png");
+	
+	}
+
+.image_flottante_gauche{float:right;}
+
+.image_flottante_droite{float:left;}
+
+.tout_noir{background : red;}
+
+#cache{
+	color : red;
+	margin-left: 50%;}
+
+/*a:hover { background-color: black; color : black;}*/
+
+.gauche{
+	display : inline-block;
+	width: 45%;
+	margin-left: 2%;
+	vertical-align: top;
+	}
+	
+.droite{
+	display : inline-block;
+	width: 45%;
+	margin-left: 4%;
+	vertical-align: top;
+	}
+	
+#logoroucool, #logopikachu,#logoosselait
+	{
+	display:block;
+	width: 50%;
+	height : 200px;
+	margin: auto;
+	}
+
+	
+#roucool, #pikachu, #osselait
+	{
+	display:inline-block;
+	width:23%;
+	height : 80%;
+	vertical-align:top;
+	margin: 2%;
+	padding: 2%;
+	border : groove;/*Modifie le style des bordures pour "incrustée avec effet 3D, inverse de ridge".*/
+	border-color : grey;
+	border-width: 10px;
+	}
+	
+#roucool {margin-left : 4%;}
+	
+.justif{text-align:justify;}
+.Italique{font-style:italic;
+			color:rgb(255,150,150)}
+
+#Magicarpe
+	{
+	background-image:url("../Images/hydro.png"); /*Modifie le background, met une image adaptee avec le type Hydro de magicarpe*/
+	width:655px;
+	height: 215px;
+	margin:auto;
+	padding: 5px;
+	text-align:justify;
+	border-color : green;
+	border-style : ridge; /*Modifie le style des bordures pour "en relief avec effet 3D, inverse de groove".*/
+	border-width: 10px;
+
+	}
+
+color_text 
+	{color : white}
+.epileptique{text-align:center}

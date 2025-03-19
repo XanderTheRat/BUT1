@@ -1,0 +1,45 @@
+@media screen and (max-width : 580px){
+    
+
+    
+}
+
+@media screen and ( (max-width:700px) or (max-height : 700px)){
+    
+    .logo{
+        display: none;
+    }
+
+    .visiblePC{
+        display: none;
+    }
+    .visibleTEL{
+        display: flex;
+        justify-content: center;
+        padding: 10px 15px;
+        margin-left: 27%;
+        background-color: rgb(138, 97, 22); /* Couleur du bouton */
+        color: hwb(0 100% 0%);
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-right: 10px;
+        font-weight: bold;
+    }
+
+    .TableDesMatieres{
+        width: 6%;
+        font-size: small;
+
+    }
+
+    input[type=range] {
+        writing-mode: vertical-lr;
+        direction: rtl;
+        vertical-align: middle;
+    }
+
+    .play-button, .pause-button{
+        display:none;
+    }
+}
