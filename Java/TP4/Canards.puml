@@ -1,0 +1,39 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+abstract class Duck {
+- Boolean canFly
++ Duck(Boolean canFly)
++ Duck()
++ swimm()
++ spawn()
++ loseFeather()
+}
+
+class Colvert{
++ makeANoise()
++ spawn()
++ fly()
+}
+
+class Mandarin {
++ makeANoise()
++ spawn()
++ fly()
+}
+
+class PlasticDuck {
++ makeANoise()
++ spawn()
+}
+
+class Lure {
++ spawn()
++ makeANoise()
+}
+
+Lure --|> Duck
+PlasticDuck --|> Duck
+Mandarin --|> Duck
+Colvert --|> Duck
+@enduml

@@ -1,0 +1,40 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class Main {
+main(args : String[]) : void
+}
+
+Rover --> Direction
+Rover --> Direction
+
+Rover --> Position
+
+class Position{
+x : Integer
+y : Integer
+Position(x: Integer, y: Integer)
+getX() : Integer
+getY() : Integer
+toString : String
+}
+
+class Rover {
+Rover(position : Position, direction : Direction)
+Rover(x : Integer, y : Integer, direction : Direction)
+Rover()
+move() : void
+turnLeft()
+turnRight()
+getLocation() : String
+toString() : String
+}
+
+enum Direction {
+NORTH
+EAST
+WEST
+SOUTH
+}
+
+@enduml

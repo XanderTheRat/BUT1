@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/TP1/TP1.iml" filepath="$PROJECT_DIR$/TP1/TP1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TP2/TP2.iml" filepath="$PROJECT_DIR$/TP2/TP2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TP3/TP3.iml" filepath="$PROJECT_DIR$/TP3/TP3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TP4/TP4.iml" filepath="$PROJECT_DIR$/TP4/TP4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TP5/TP5.iml" filepath="$PROJECT_DIR$/TP5/TP5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TP6/TP6.iml" filepath="$PROJECT_DIR$/TP6/TP6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TP7/TP7.iml" filepath="$PROJECT_DIR$/TP7/TP7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/canard.iml" filepath="$PROJECT_DIR$/canard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pers/pers.iml" filepath="$PROJECT_DIR$/pers/pers.iml" />
+      <module fileurl="file://$PROJECT_DIR$/td3/td3.iml" filepath="$PROJECT_DIR$/td3/td3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/td4/td4.iml" filepath="$PROJECT_DIR$/td4/td4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/td5/td5.iml" filepath="$PROJECT_DIR$/td5/td5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/td6/td6.iml" filepath="$PROJECT_DIR$/td6/td6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/td7/td7.iml" filepath="$PROJECT_DIR$/td7/td7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vtyudrtu.iml" filepath="$PROJECT_DIR$/vtyudrtu.iml" />
+    </modules>
+  </component>
+</project>
